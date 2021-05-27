@@ -74,13 +74,7 @@ class ProfileChooserFragmentLocalTest {
 
   @Before
   fun setUp() {
-    Intents.init()
     setUpTestApplicationComponent()
-  }
-
-  @After
-  fun tearDown() {
-    Intents.release()
   }
 
   @Test
